@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogBook — Privacy Policy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #faf9f6;
+            --text: #2c2420;
+            --muted: #7a7067;
+            --accent: #8b6914;
+            --card: #ffffff;
+            --border: #e8e2d9;
+            --section-bg: #f4f1eb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .header {
+            text-align: center;
+            padding: 60px 24px 40px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header .emoji {
+            font-size: 48px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .header h1 {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: clamp(28px, 5vw, 40px);
+            font-weight: 400;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        .header .date {
+            margin-top: 16px;
+            font-size: 13px;
+            color: var(--muted);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+        }
+
+        .section p {
+            margin-bottom: 14px;
+            font-size: 15px;
+            color: #3d352e;
+        }
+
+        .data-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 16px 0;
+        }
+
+        .data-card h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .data-card p {
+            font-size: 14px;
+            color: var(--muted);
+            margin-bottom: 0;
+        }
+
+        .highlight-box {
+            background: var(--section-bg);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 20px 0;
+            border-left: 3px solid var(--accent);
+        }
+
+        .highlight-box p {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0 14px;
+        }
+
+        li {
+            font-size: 15px;
+            color: #3d352e;
+            margin-bottom: 6px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            .header { padding: 40px 20px 32px; }
+            .content { padding: 32px 20px 60px; }
+            .data-card { padding: 16px 18px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="emoji">💩</span>
+        <h1>LogBook Privacy Policy</h1>
+        <p class="subtitle">Your data, your business. Here's what we collect and why.</p>
+        <p class="date">Effective: February 21, 2026</p>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Overview</h2>
+            <p>LogBook ("we," "our," or "the app") is a personal logging app that lets you track and share activity with friends. We take your privacy seriously and collect only what's necessary to make the app work. We do not sell your data to third parties. Period.</p>
+        </div>
+
+        <div class="section">
+            <h2>Information We Collect</h2>
+            <p>When you use LogBook, we collect the following types of information:</p>
+
+            <div class="data-card">
+                <h3>📧 Account Information</h3>
+                <p>Your email address, username, and chosen avatar when you create an account. This is stored securely via Firebase Authentication and Firestore.</p>
+            </div>
+
+            <div class="data-card">
+                <h3>📍 Location Data</h3>
+                <p>When you log an entry, we store the latitude and longitude you select on the map. Location access is optional — you can deny permission and manually set a location. We only access your location while the app is in use, never in the background.</p>
+            </div>
+
+            <div class="data-card">
+                <h3>📝 Log Entries</h3>
+                <p>The entries you create, including timestamp, type, comments, bathroom rating, and location. These are stored in your personal account on our servers.</p>
+            </div>
+
+            <div class="data-card">
+                <h3>👥 Social Features</h3>
+                <p>If you join or create a group ("Stall Mates"), we store group membership, shared log entries, and chat messages so that group members can see shared activity.</p>
+            </div>
+
+            <div class="highlight-box">
+                <p><strong>What we do NOT collect:</strong> We do not collect analytics, advertising identifiers, browsing history, contacts, photos, health data, financial information, or any data beyond what is listed above. Firebase Analytics is explicitly disabled in our app.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>How We Use Your Data</h2>
+            <p>Your data is used exclusively to provide app functionality:</p>
+            <ul>
+                <li>To create and maintain your account</li>
+                <li>To store and display your log entries</li>
+                <li>To enable sharing with groups you choose to join</li>
+                <li>To power the group chat feature</li>
+                <li>To display your entries on a map and calendar</li>
+            </ul>
+            <p>We do not use your data for advertising, profiling, marketing, or any purpose beyond delivering the app's features.</p>
+        </div>
+
+        <div class="section">
+            <h2>Data Storage & Security</h2>
+            <p>Your data is stored using Google Firebase (Authentication and Cloud Firestore), which provides encryption in transit and at rest. Access to your data is controlled by security rules that ensure only you can read your personal logs, and only group members can access shared content.</p>
+        </div>
+
+        <div class="section">
+            <h2>Data Sharing</h2>
+            <p>We do not sell, rent, or share your personal data with third parties. Your data is only visible to:</p>
+            <ul>
+                <li><strong>You</strong> — your personal logs are visible only to you.</li>
+                <li><strong>Group members</strong> — only logs you explicitly choose to share are visible to members of that group.</li>
+            </ul>
+            <p>We may disclose data if required by law or to protect the safety of our users.</p>
+        </div>
+
+        <div class="section">
+            <h2>Your Rights & Account Deletion</h2>
+            <p>You have full control over your data:</p>
+            <ul>
+                <li><strong>Access:</strong> View all your data within the app at any time.</li>
+                <li><strong>Modification:</strong> Update your username and avatar in your profile.</li>
+                <li><strong>Deletion:</strong> You can permanently delete your account and all associated data directly from the app via Profile → Delete Account. This removes your user record, username, and authentication credentials. This action is irreversible.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Children's Privacy</h2>
+            <p>LogBook is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal data, please contact us and we will delete it promptly.</p>
+        </div>
+
+        <div class="section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated effective date. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>If you have questions about this privacy policy or your data, reach out to us at:</p>
+            <p><a href="mailto:logbook@dukeofmcguire.com">logbook@dukeofmcguire.com</a></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>LogBook &copy; 2026 · Built with 💩 by dukeofmcguire</p>
+    </div>
+</body>
+</html>
